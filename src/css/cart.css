@@ -1,0 +1,50 @@
+.divCart {
+  position: fixed;
+  margin-top: 30px;
+  margin-left: -150px;
+  width: 290px;
+  max-height: 60vh;
+
+  background-color: #ff000a;
+  border-radius: 10px;
+  display: flex;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-bottom: 20px;
+}
+.checkout {
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.checkoutMain {
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+.checkoutMain:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: white;
+}
+.whiteline{
+    background-color:  white;
+    height: 2px !important;
+    opacity: 1 !important;
+    margin: 0 !important;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(199, 199, 199);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(158, 158, 158);
+}

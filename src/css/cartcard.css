@@ -1,0 +1,35 @@
+
+.cartCard{
+    width: 240px;
+    height: auto;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.cartCard2{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.cardImage{
+    width: 90px;
+    padding: 0px 10px;
+    height: auto;
+}
+.minus{
+    width: 30px;
+}
+.plus{
+    width: 20px;
+}
+.hover:hover{
+    cursor: pointer;
+}
+.remove{
+    width: 20px;
+
+}
+.remove:hover{
+    cursor: pointer;
+}

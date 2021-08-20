@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  background-color: #ff000a;
+  height: 60px;
+  padding: 12px 0px 0px 40px;
+  position: fixed;
+  top: 0;
+}
+.logoHeader {
+  width: 150px;
+}
+.logoHeader:hover {
+  cursor: pointer;
+}
+.titleHeader {
+  color: white;
+  font-size: 20pt;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.titleHeader:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: white;
+}
+.imgCarrito {
+  width: 40px;
+}
+.imgCarrito:hover {
+  cursor: pointer;
+}
+.qty {
+  color: white;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  border: 4px solid white;
+  height: 45px;
+  width: 45px;
+  font-size: 23pt;
+  margin-left: -55px;
+  margin-top: -5px;
+}

@@ -1,0 +1,38 @@
+
+.amiiboCard{
+    width: 300px;
+    height: auto;
+    border: 2px solid #FF000A;
+    box-shadow: 2px 6px 7px #00000029;
+    border-radius: 10px;
+}
+
+.imageDiv{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+}
+.imgAmiibo{
+    width: 200px;
+ 
+}
+.infoDiv{
+    padding: 15px;
+}
+.price{
+    text-align: right;
+}
+.redLine{
+    background-color:  #FF000A;
+    height: 2px !important;
+    opacity: 1 !important;
+    margin: 0 !important;
+}
+.redCart{
+    width: 30px;
+    height: auto;
+}
+.redCart:hover{
+    cursor: pointer;
+}

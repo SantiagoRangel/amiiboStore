@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+.home {
+  background-image: url("../img/patron.png");
+  background-size: 1400px;
+  background-position: bottom;
+  padding: 30px 30px 0 30px;
+  min-height: 100vh;
+}
+.divHome {
+  border-radius: 35px;
+  height: auto;
+  background-color: rgb(238, 238, 238);
+  padding: 40px;
+}
+.titleHome {
+  color: black;
+  font-size: 40pt;
+  font-family: "Roboto", sans-serif;
+}
+.titleAmiibo {
+  width: 300px;
+  margin-top: 75px;
+}
+.splat {
+  width: 500px;
+  height: auto;
+  margin: -100px 0px 0px -210px;
+}
+.comprar{
+    background-color: #FF000A;
+    color: white;
+    font-size: 25pt;
+    font-family: "Roboto", sans-serif;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 10px 20px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
