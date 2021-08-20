@@ -27,7 +27,7 @@ const Checkout = () => {
     if (cart.length >= 0) {
       const nuevo = cart.map((amiibo, key) => {
         return (
-          <div key={key} align="center" className="col-6 py-3">
+          <div key={key} align="center" className="col-lg-6 col-sm-12 py-3">
             <CardCheckout amiibo={amiibo} />
           </div>
         );

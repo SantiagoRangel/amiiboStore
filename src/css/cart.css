@@ -48,3 +48,11 @@
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(158, 158, 158);
 }
+@media (max-width: 800px) {
+    .divCart {
+       
+        margin-left: 0px;
+        
+      }
+
+}

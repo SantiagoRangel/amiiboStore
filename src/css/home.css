@@ -44,3 +44,17 @@
     justify-content: center;
     text-align: center;
 }
+@media (max-width: 800px) {
+    .titleHome {
+        font-size: 32pt;
+      }
+      .titleAmiibo {
+        width: 200px;
+        margin-top: 75px;
+      }
+      .splat {
+        width: 250px;
+        height: auto;
+        margin: -30px 0px 0px 0;
+      }
+}

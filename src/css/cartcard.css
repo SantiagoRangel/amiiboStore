@@ -33,3 +33,10 @@
 .remove:hover{
     cursor: pointer;
 }
+@media (max-width: 800px) {
+    .cartCard2{
+        width: 300px;
+        height: auto;
+      
+    }
+}

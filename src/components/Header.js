@@ -46,19 +46,19 @@ const Header = () => {
   return (
     <div className="header ">
       <div className="row">
-        <div className="col-2">
+        <div className="col-lg-2 col-sm-12">
           <Link to="/">
             <img alt="logo" className="logoHeader" src={whiteLogo}></img>
           </Link>
         </div>
 
-        <div className="col-2">
+        <div className="col-lg-2 col-sm-12">
           <Link to="/Amiibos">
             <h2 className="titleHeader">Amiibos</h2>
           </Link>
         </div>
         <div className="col-6"></div>
-        <div className="col-2">
+        <div className="col-lg-2  col-sm-12">
           <div className="row">
             <div className="col">
               <img

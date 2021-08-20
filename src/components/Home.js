@@ -9,14 +9,14 @@ const Home = () => {
       <div className="container">
         <div className="divHome ">
           <div className="row">
-            <div className="col-7">
+            <div className="col-lg-7 col-sm-12">
               <h2 className="titleHome">
                 Aprovecha los mejores descuentos para comprar tu próximo Amiibo
               </h2>
               <img alt="Amiibo" className="titleAmiibo" src={amiibo}></img>
             </div>
             <div className="col-2"></div>
-            <div className="col-3">
+            <div className="col-lg-3 col-sm-12">
               <img alt="splat"className="splat" src={splat}></img>
             </div>
           </div>
